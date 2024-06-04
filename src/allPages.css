@@ -1,17 +1,52 @@
 .main-container{
     height:842px;
     width:1491px;
-    border: 1px solid #fff;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.snake{
-    min-height: 50px;
-    width: 50px;
+.startgame-container{
+    border-radius: 12px;
+    height:820px;
+    width:1451px;
     border: 1px solid #fff;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    color: #fff;
+    z-index: 12;
+}
+.startgame-container-hidden{
+    display: none;
+}
+.startgame-button{
+    height:50px;
+    width:160px;
+    border-radius: 4px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.startgame-button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+.snake-game-hidden{
+    display: none;
+}
+.snake-game{
+    border-radius: 12px;
+    height:820px;
+    width:1451px;
+    border: 1px solid #ed0808;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

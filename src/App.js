@@ -1,8 +1,9 @@
+import './allPages.css'
 
 function App() {
   return (
-    <div>
-      HI
+    <div className='main-container'>
+      <div className='snake'></div>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-#ALL THANKS TO DANTELVEE, This code has been copied/learnt from his youtube vedios
+## ALL THANKS TO DANTELVEE, This code has been copied/learnt from his youtube vedios
 
 [Cick here to get to original repo](https://github.com/dantevlee/react-tutorials/tree/main/snake-game)  
 

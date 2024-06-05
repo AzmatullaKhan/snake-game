@@ -1,3 +1,7 @@
+#ALL THANKS TO DANTELVEE, This code has been copied/learnt from his youtube vedios
+
+[Cick here to get to original repo](https://github.com/dantevlee/react-tutorials/tree/main/snake-game)  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

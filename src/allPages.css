@@ -78,5 +78,13 @@
 .game-container{
     height:810px;
     width:1180px;
-    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gameCanvas{
+    border:1px solid #0fec11;
+    border-radius: 12px;
 }

@@ -1,12 +1,16 @@
 import './allPages.css'
 import {StartGame} from './startGame'
+import {Game} from './game'
+
 function App() {
   
   return (
     <div className='main-container'>
       <StartGame />
       <div className='snake-game-hidden' id='snake_game'>
-        <div className='snake-photo-animation'></div>
+          <Game />
+          <div className='snake-photo-animation'>
+        </div>
       </div>
     </div>
   );

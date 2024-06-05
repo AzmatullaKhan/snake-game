@@ -10,14 +10,21 @@
     border-radius: 12px;
     height:820px;
     width:1451px;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: column;
     position: absolute;
     color: #fff;
-    z-index: 12;
+    background-image: url('./images/bg.jpg');
+    background-size: cover;
+    animation:startgame-container-animation 0.1s 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes startgame-container-animation {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
 }
 .startgame-container-hidden{
     display: none;
@@ -25,16 +32,19 @@
 .startgame-button{
     height:50px;
     width:160px;
+    position: absolute;
+    margin-top: 600px;
     border-radius: 4px;
     background-color: #000;
-    color: #fff;
-    border: 1px solid #fff;
+    color:green;
+    font-weight:bolder;
+    border: 1px solid #0fec11;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 .startgame-button:hover{
-    background-color: #fff;
-    color: #000;
+    background-color: #013c01;
+    color: #fff;
 }
 
 
@@ -45,8 +55,28 @@
     border-radius: 12px;
     height:820px;
     width:1451px;
-    border: 1px solid #ed0808;
+    border: 1px solid #0fec11;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+
+}
+.snake-photo-animation{
+    background-image: url('./images/bg.jpg');
+    background-size: cover;
+    height:100px;
+    width:150px;
+    display: block;
+    zoom: 0%;
+    position: absolute;
+    margin-left: -1350px;
+    margin-top: -730px;
+    animation: snake-photo-animation-1 2s ease-in 0s;
+}
+@keyframes snake-photo-animation-1 {
+    0%{height: 820px;width: 1452px;margin:0px}
+    50%{height:100px;width: 150px; margin: 0px;}
+    750%{margin-left: -1350px;margin-top: 0;}
+    100%{margin-top: -730px;}
 }

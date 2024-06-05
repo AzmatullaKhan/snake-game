@@ -5,7 +5,9 @@ function App() {
   return (
     <div className='main-container'>
       <StartGame />
-      <div className='snake-game-hidden' id='snake_game'></div>
+      <div className='snake-game-hidden' id='snake_game'>
+        <div className='snake-photo-animation'></div>
+      </div>
     </div>
   );
 }
